@@ -14,6 +14,7 @@
 - BackEnd
     - ![Generic badge](https://img.shields.io/badge/python?logo=python)
     - Flask
+    - ![Generic badge](https://img.shields.io/badge/logo-test-blue?logo=facebook)
     - Open AI API
     - OpenWeather API
 - FrontEnd
