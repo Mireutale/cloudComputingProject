@@ -8,7 +8,7 @@
 
 # 목차
 - 사용 기술스택
-- [Team2_Member](# Team2_Member)
+- [Team2_Member](#Team2_Member)
 ## Team2_Member
 <div align="center">
 
