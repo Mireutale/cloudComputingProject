@@ -3,7 +3,7 @@
 
 ## Team2_Member
 
-<table>
+<table align="center>
   <thead>
     <tr>
       <th align="center">역할</th>
