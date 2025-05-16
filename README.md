@@ -3,10 +3,53 @@
 
 ## Team2_Member
 
-| 역할               | 이름   | GitHub 프로필                                               | Email               |
-|------------------|--------|-------------------------------------------------------------|---------------------|
-| BackEnd          | 강태진  | <img src="https://github.com/mireutale.png" width="50"/> <br> [@mireutale](https://github.com/mireutale) | xowls0319@pusan.ac.kr   |
-| FrontEnd         | daulet    | <img src="https://github.com/---.png" width="50"/> <br> [@---](https://github.com/---) | daulet2001@pusan.ac.kr    |
-| Deployment (배포) | 윤민혁  | <img src="https://github.com/---.png" width="50"/> <br> [@---](https://github.com/---) | ghini7170@naver.com   |
-| Announcement (발표) | 김진영 | <img src="https://github.com/---.png" width="50"/> <br> [@---](https://github.com/---) |  jin41333@naver.com    |
+<table>
+  <thead>
+    <tr>
+      <th align="center">역할</th>
+      <th align="center">이름</th>
+      <th align="center">GitHub 프로필</th>
+      <th align="center">Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">BackEnd</td>
+      <td align="center">강태진</td>
+      <td align="center">
+        <img src="https://github.com/mireutale.png" width="50"/><br>
+        <a href="https://github.com/mireutale">@mireutale</a>
+      </td>
+      <td align="center">xowls0319@pusan.ac.kr</td>
+    </tr>
+    <tr>
+      <td align="center">FrontEnd</td>
+      <td align="center">daulet</td>
+      <td align="center">
+        <img src="https://github.com/---.png" width="50"/><br>
+        <a href="https://github.com/---">@---</a>
+      </td>
+      <td align="center">daulet2001@pusan.ac.kr</td>
+    </tr>
+    <tr>
+      <td align="center">Deployment (배포)</td>
+      <td align="center">윤민혁</td>
+      <td align="center">
+        <img src="https://github.com/---.png" width="50"/><br>
+        <a href="https://github.com/---">@---</a>
+      </td>
+      <td align="center">ghini7170@naver.com</td>
+    </tr>
+    <tr>
+      <td align="center">Announcement (발표)</td>
+      <td align="center">김진영</td>
+      <td align="center">
+        <img src="https://github.com/---.png" width="50"/><br>
+        <a href="https://github.com/---">@---</a>
+      </td>
+      <td align="center">jin41333@naver.com</td>
+    </tr>
+  </tbody>
+</table>
+
 
