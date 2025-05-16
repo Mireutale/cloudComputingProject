@@ -11,13 +11,13 @@
 - [Team2_Member](#Team2_Member)
 
 ## 기술스택
-- ![BackEnd](https://img.shields.io/badge/TechStack-BackEnd-gray)
+- ![BackEnd](https://img.shields.io/badge/TechStack-BackEnd-green)
     - ![Python](https://img.shields.io/badge/python-blue?logo=python&logoColor=white)
     - ![Flask](https://img.shields.io/badge/Flask-black?logo=Flask&logoColor=white)
     - ![Open AI API](https://img.shields.io/badge/OpenAI-white?logo=OpenAI&logoColor=black)
     - ![OpenWeather API](https://img.shields.io/badge/TechStack-OpenWeather%20API-orange)
-- ![FrontEnd](https://img.shields.io/badge/TechStack-FrontEnd-gray)
-- ![Cloud Server](https://img.shields.io/badge/TechStack-Cloud%20Server-gray)
+- ![FrontEnd](https://img.shields.io/badge/TechStack-FrontEnd-green)
+- ![Cloud Server](https://img.shields.io/badge/TechStack-Cloud%20Server-green)
 
 ## Team2_Member
 <div align="center">
