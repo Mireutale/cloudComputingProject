@@ -2,8 +2,9 @@
 2025년 1학기 부산대학교 클라우드컴퓨팅 059분반 팀2 프로젝트 코드
 
 ## Team2_Member
+<div align="center">
 
-<table align="center>
+<table>
   <thead>
     <tr>
       <th align="center">역할</th>
@@ -52,4 +53,5 @@
   </tbody>
 </table>
 
+</div>
 
