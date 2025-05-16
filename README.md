@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./woowacourse.png" alt="우아한테크코스" width="250px">
+    <img src="./pusanUnibersity_signature04.png" alt="부산대학교로고" width="250px">
 </p>
 
 # cloudComputingProject
