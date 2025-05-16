@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="./woowacourse.png" alt="우아한테크코스" width="250px">
+</p>
+
 # cloudComputingProject
 2025년 1학기 부산대학교 클라우드컴퓨팅 059분반 팀2 프로젝트 코드
 
