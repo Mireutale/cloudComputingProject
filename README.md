@@ -12,7 +12,7 @@
 
 ## 기술스택
 - BackEnd
-    - Python
+    - ![Generic badge](https://img.shields.io/badge/python?logo=python)
     - Flask
     - Open AI API
     - OpenWeather API
