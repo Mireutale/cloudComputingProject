@@ -2,16 +2,10 @@
 2025년 1학기 부산대학교 클라우드컴퓨팅 059분반 프로젝트 코드
 
 ## Member
-Team 2
-1. BackEnd
-- Name: [강태진(mireutale)](https://github.com/Mireutale)
-- Email: xowls0319@pusan.ac.kr
-2. FrontEnd
-- Name: daulet
-- Email: daulet2001@pusan.ac.kr
-3. Deployment(배포)
-- Name: 윤민혁
-- Email: ghini7170@naver.com
-4. Announcement(발표)
-- Name: 김진영
-- Email:  jin41333@naver.com
+
+| 역할               | 이름      | GitHub 프로필                             | Email           |
+|------------------|----------|------------------------------------------|-----------------|
+| BackEnd          | 홍길동    | ![홍길동](https://github.com/username.png) <br>[@username](https://github.com/username) | hong@example.com |
+| FrontEnd         | 김철수    | ![김철수](https://github.com/username2.png) <br>[@username2](https://github.com/username2) | kim@example.com |
+| Deployment (배포) | 박영희    | ![박영희](https://github.com/username3.png) <br>[@username3](https://github.com/username3) | park@example.com |
+| Announcement (발표) | 이민정 | ![이민정](https://github.com/username4.png) <br>[@username4](https://github.com/username4) | lee@example.com |
