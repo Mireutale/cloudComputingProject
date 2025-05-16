@@ -7,8 +7,17 @@
 > 2025, first semester, Pusan National University Cloud Computing 059 and Team 2 Project Code
 
 # 목차
-- 사용 기술스택
+- [기술스택](#기술스택)
 - [Team2_Member](#Team2_Member)
+
+## 기술스택
+- BackEnd
+    - Python
+    - Flask
+    - Open AI API
+    - OpenWeather API
+- FrontEnd
+- Cloud Server
 
 ## Team2_Member
 <div align="center">
