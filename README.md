@@ -3,9 +3,10 @@
 
 ## Member
 
-| 역할               | 이름      | GitHub 프로필                             | Email           |
-|------------------|----------|------------------------------------------|-----------------|
-| BackEnd          | 홍길동    | ![홍길동](https://github.com/username.png) <br>[@username](https://github.com/username) | hong@example.com |
-| FrontEnd         | 김철수    | ![김철수](https://github.com/username2.png) <br>[@username2](https://github.com/username2) | kim@example.com |
-| Deployment (배포) | 박영희    | ![박영희](https://github.com/username3.png) <br>[@username3](https://github.com/username3) | park@example.com |
-| Announcement (발표) | 이민정 | ![이민정](https://github.com/username4.png) <br>[@username4](https://github.com/username4) | lee@example.com |
+| 역할               | 이름   | GitHub 프로필                                               | Email               |
+|------------------|--------|-------------------------------------------------------------|---------------------|
+| BackEnd          | Alice  | <img src="https://github.com/octocat.png" width="50"/> <br> [@octocat](https://github.com/octocat) | alice@example.com   |
+| FrontEnd         | Bob    | <img src="https://github.com/torvalds.png" width="50"/> <br> [@torvalds](https://github.com/torvalds) | bob@example.com     |
+| Deployment (배포) | Carol  | <img src="https://github.com/mojombo.png" width="50"/> <br> [@mojombo](https://github.com/mojombo) | carol@example.com   |
+| Announcement (발표) | Dave | <img src="https://github.com/defunkt.png" width="50"/> <br> [@defunkt](https://github.com/defunkt) | dave@example.com    |
+
