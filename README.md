@@ -8,7 +8,8 @@
 
 # 목차
 - [기술스택](#기술스택)
-- [Team2_Member](#Team2_Member)
+- [Weather API Service](#weather-api-service)
+- [Team2_Member](#team2_member)
 
 ## 기술스택
 - ![BackEnd](https://img.shields.io/badge/TechStack-BackEnd-green)
@@ -18,6 +19,73 @@
     - ![OpenWeather API](https://img.shields.io/badge/TechStack-OpenWeather%20API-orange)
 - ![FrontEnd](https://img.shields.io/badge/TechStack-FrontEnd-green)
 - ![Cloud Server](https://img.shields.io/badge/TechStack-Cloud%20Server-green)
+
+## Weather API Service
+
+Flask를 사용한 날씨 정보 API 서비스입니다.
+
+## 설치 방법
+
+1. 필요한 패키지 설치:
+```bash
+pip install -r requirements.txt
+```
+
+2. 환경 변수 설정:
+- `.env` 파일을 생성하고 다음 내용을 추가하세요:
+```
+OPENWEATHER_API_KEY=your_api_key_here
+```
+- `your_api_key_here`를 OpenWeather API 키로 교체하세요.
+
+## 실행 방법
+
+```bash
+python -m flask run
+```
+
+## API 사용 방법
+
+### 날씨 정보 조회
+- 엔드포인트: `/weather`
+- 메소드: GET
+- 파라미터:
+  - `city`: 도시 이름 (기본값: Seoul)
+- 예시:
+  ```
+  GET /weather?city=Tokyo
+  ```
+
+## 응답 예시
+```json
+{
+  "city": "Seoul",
+  "current": {
+    "temp": 15.5,
+    "feels_like": 14.8,
+    "humidity": 65,
+    "pressure": 1012,
+    "weather": "맑음",
+    "wind_speed": 2.1,
+    "clouds": 20
+  },
+  "daily": [
+    {
+      "dt": 1672918169,
+      "temp": {
+        "day": 16.2,
+        "min": 12.5,
+        "max": 18.0
+      },
+      "weather": [{
+        "description": "맑음",
+        "icon": "01d"
+      }]
+    }
+    // ... 4 more days of forecast
+  ]
+}
+```
 
 ## Team2_Member
 <div align="center">
@@ -72,4 +140,3 @@
 </table>
 
 </div>
-
