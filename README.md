@@ -18,6 +18,10 @@
     - ![Open AI API](https://img.shields.io/badge/OpenAI-white?logo=OpenAI&logoColor=black)
     - ![OpenWeather API](https://img.shields.io/badge/TechStack-OpenWeather%20API-orange)
 - ![FrontEnd](https://img.shields.io/badge/TechStack-FrontEnd-green)
+    -![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+    -![Typescript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square)
+    -![React](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge)
+    -![Tailwind CSS](https://img.shields.io/badge/tailwindcss-0F172A?&logo=tailwindcss)
 - ![Cloud Server](https://img.shields.io/badge/TechStack-Cloud%20Server-green)
 
 ## Weather API Service
