@@ -114,7 +114,7 @@ python -m flask run
       <td align="center">daulet</td>
       <td align="center">
         <img src="https://github.com/suyenish.png" width="50"/><br>
-        <a href="https://github.com/suyenish">@---</a>
+        <a href="https://github.com/suyenish">@suyenish</a>
       </td>
       <td align="center">daulet2001@pusan.ac.kr</td>
     </tr>
