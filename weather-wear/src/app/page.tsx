@@ -15,22 +15,16 @@ export default function HomePage() {
   const [weatherData, setWeatherData] = useState<WeatherData | null>(null);
   const [recommendation, setRecommendation] = useState("");
 
-  const handleSearch = (location: string) => {
-    // MOCKED response
-    const mockWeather: WeatherData = {
-      temp: 17,
-      description: "흐림",
-      humidity: 72,
-      windSpeed: 4.5,
-    };
-
-    const mockGPTRecommendation = `
-      오늘은 흐리고 기온이 낮으므로 가벼운 자켓이나 바람막이를 추천합니다.
-      긴팔 셔츠와 청바지를 입고, 바람이 불 수 있으니 얇은 스카프도 좋습니다.
-    `;
-
-    setWeatherData(mockWeather);
-    setRecommendation(mockGPTRecommendation);
+  const handleSearch = async (location: string) => {
+    try{
+    const res = await fetch(`http://18.217.184.182:5000/weather?city=${location}`);
+    const data = await res.json();
+    setWeatherData(data.weather);
+    setRecommendation(data.clothingRecommendation);
+    }
+    catch(err){
+    console.error("API 호출 실패",err);
+    }
   };
 
   return (
