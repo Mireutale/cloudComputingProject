@@ -60,7 +60,7 @@ python -m flask run
   GET /weather?city=Tokyo
   ```
 
-## 응답 예시
+## OpenWeatherAPI 응답 예시
 ```json
 {
   "city": "Seoul",
@@ -86,7 +86,6 @@ python -m flask run
         "icon": "01d"
       }]
     }
-    // ... 4 more days of forecast
   ]
 }
 ```
