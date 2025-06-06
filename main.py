@@ -2,10 +2,12 @@ from flask import Flask, jsonify, request
 from app.weather import WeatherService
 from dotenv import load_dotenv
 
+from flask_cors import CORS
 # Load environment variables from .env file
 load_dotenv()
 
 app = Flask(__name__)
+CORS(app)
 weather_service = WeatherService()
 
 @app.route('/weather', methods=['GET'])
@@ -21,4 +23,4 @@ def get_weather():
         return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0",port=5000,debug=True)
