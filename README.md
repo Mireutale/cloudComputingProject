@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./pusanUnibersity_signature04.png" alt="부산대학교로고" width="250px">
+    <img src="./img/pusanUnibersity_signature04.png" alt="부산대학교로고" width="250px">
 </p>
 
 # 프로젝트명
