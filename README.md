@@ -75,10 +75,38 @@
 
 ---
 ## 프로젝트 소개
+
+- 사용자가 선택한 지역의 날씨 정보를 OpenWeather API를 사용하여 실시간으로 가져와, 해당 날씨에 적합한 의상을 OpenAI GPT API를 통해 자연어로 추천을 받아 보여주는 웹 서비스입니다.
+- 사용자는 별도의 로그인 없이 웹 페이지에 접속하여 즉시 옷차림 추천을 확인할
+수 있게 하여, 사용자 접근성을 향상시킵니다. 
+- 서비스는 단순한 날씨 제공을 넘어, 사용자 맞춤형 옷차림 정보를 제공함으로써 사용자의 편의성을 높이는 것을 목표로 합니다.
+
 ---
 ## 프로젝트 필요성 소개
+
+기후 변화로 인해 계절에 따른 온도 변화가 예측하기 어려워졌습니다.  
+이에 따라 옷차림을 결정하는 데 어려움을 겪는 사람이 많습니다.  
+옷차림을 결정하기 위해서는 사용자의 지역을 토대로 날씨를 검색하고, 검색 결과에서 기상상태, 온도, 습도, 풍량 등을 종합적으로 고려해야 합니다.  
+현대인의 바쁜 일상 속에서 다양한 날씨 요소를 종합적으로 고려해 적절한 옷차림을 결정하는 일은 번거롭고 어려운 일이 되었습니다.  
+이러한 문제를 해결하기 위해 날씨 기반 의상 추천 서비스를 개발하고자 합니다.  
+
 ---
 ## 관련 기술/논문/프로젝트 특허 조사 내용 소개
+- OpenWeatherMap API  
+  - One Call API3.0 은 현재 날씨(current, minitely, hourly, daily 별 날씨 정
+보), timestamp 기반 날씨 정보, 날씨 집계 정보, 날씨 개요 등을 지원한다.  
+    - https://openweathermap.org/api/one-call-3
+
+  - Geocoding API의 Coordinates by location name API는 도시의 이름을 기반으로 위도, 경도 정보를 반환한다.
+    - https://openweathermap.org/api/geocoding-api
+
+- OpenAI GPT API
+  ① Python OpenAI 라이브러리를 활용해서 OpenAI GPT API를 편리하게 사
+용할 수 있다.
+  - OpenAI(최상위 API 클라이언트 클래스) 
+  - chat(chat 관련 API 기능을 담당하는 서브모듈)  
+  - completions 객체의 create 메서드를 사용하여, 프롬프트(입력 텍스트)를 기반으로 다양한 유형의 자연어 응답을 생성할 수 있다.
+    - https://platform.openai.com/docs/guides/text?api-mode=chat
 ---
 ## 프로젝트 개발 결과물 소개
 
